@@ -1,6 +1,7 @@
 const mongoose = require('mongoose');
+const url=process.env.URL;
 
-mongoose.connect("mongodb+srv://fesports127:abcd26482@cluster0.m7g9j.mongodb.net/Paytm_Mongo")
+mongoose.connect(url)
 
 // Create a Schema for Users
 const userSchema = new mongoose.Schema({
