@@ -9,12 +9,7 @@ import { Signin } from './pages/Signin.jsx';
 import { Dashboard } from './pages/Dashboard.jsx';
 import { SendMoney } from './pages/SendMoney.jsx';
 
-
-
-
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
        <BrowserRouter>
